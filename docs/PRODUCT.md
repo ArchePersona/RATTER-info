@@ -37,7 +37,7 @@ Operational records can establish facts about reported and observable activity. 
 
 ## Relationship to ARCHETRON
 
-RATTER is part of ARCHETRON's broader infrastructure for intelligent systems. Its responsibility is operational telemetry and visibility.
+RATTER is part of ARCHETRON, the technology ecosystem built by VOLSHi for intelligent systems. Its responsibility within the ecosystem is operational telemetry and visibility.
 
 This responsibility remains separate from execution observation, evidence reasoning, governance, engineering orchestration, and attention management.
 
