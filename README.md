@@ -2,7 +2,7 @@
 
 **Operational telemetry for intelligent systems.**
 
-RATTER is an ARCHETRON technology designed to make the behavior of running systems visible through an independent operational record.
+RATTER is a technology within the ARCHETRON ecosystem, built by VOLSHi, designed to make the behavior of running systems visible through an independent operational record.
 
 As AI-driven systems perform more work autonomously, operators need more than a system's own assertion that everything went correctly. RATTER provides a telemetry surface for inspecting what the system reported, when activity occurred, and whether the operational record remains consistent.
 
@@ -61,14 +61,14 @@ Public documentation describes the product, its purpose, and externally relevant
 
 ## ARCHETRON
 
-RATTER is an ARCHETRON technology. Its responsibility is operational telemetry and system visibility.
+RATTER is a technology within ARCHETRON, the VOLSHi technology ecosystem. Its responsibility is operational telemetry and system visibility.
 
 ## Repository Scope
 
 `RATTER-info` is a public documentation repository intended for product information, evaluation, business reference, and other material that can be shared without exposing the private RATTER implementation.
 
-Publication of this repository does not grant access to RATTER source code, private systems, non-public interfaces, or ARCHETRON intellectual property.
+Publication of this repository does not grant access to RATTER source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
 
 ---
 
-Copyright © 2026 ARCHETRON. All rights reserved.
+Copyright © 2026 VOLSHi. All rights reserved.
