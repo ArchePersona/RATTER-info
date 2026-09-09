@@ -2,55 +2,45 @@
 
 **Operational telemetry for intelligent systems.**
 
-RATTER is a technology within the ARCHETRON ecosystem, built by VOLSHi, designed to make the behavior of running systems visible through an independent operational record.
+RATTER is the telemetry and operational-observation engine within ARCHETRON, the technology ecosystem built by VOLSHi.
 
-As AI-driven systems perform more work autonomously, operators need more than a system's own assertion that everything went correctly. RATTER provides a telemetry surface for inspecting what the system reported, when activity occurred, and whether the operational record remains consistent.
+As autonomous systems perform more work, operators need more than the system's own assertion that everything went correctly. RATTER preserves an independent operational record of what was reported, when it occurred, and how activity unfolded across a run.
 
-> This repository is the public information surface for RATTER. It does not contain RATTER source code, proprietary architecture, internal mechanisms, or private implementation details.
-
-## The Problem
-
-Autonomous systems can perform large amounts of work quickly. When something goes wrong, ordinary logs can be fragmented, incomplete, or difficult to connect across a run.
-
-That creates a basic operational question:
+Its central question is simple:
 
 > **What actually happened?**
 
-RATTER is designed to help answer that question from the telemetry available to it.
+> This repository is the public information surface for RATTER. It does not contain the private implementation.
 
-## What RATTER Does
+## What RATTER does
 
-RATTER provides operational visibility into activity reported by running systems.
+RATTER provides operational visibility into activity reported by running systems, including:
 
-Its product direction includes capabilities for examining:
-
-- operational events over time;
+- events over time;
 - session and run activity;
 - continuity of reported activity;
 - missing or unexpected observations;
 - differences between runs;
 - administrative activity records; and
-- operational information that can be retained for later inspection.
+- operational information retained for later inspection.
 
-## A Critical Boundary
+## A critical boundary
 
-RATTER observes telemetry. It does not claim that telemetry reveals a system's hidden reasoning or private internal state.
+RATTER observes telemetry. It does not claim telemetry reveals hidden reasoning or private internal state.
 
 Its conclusions are bounded by the operational information it actually receives.
 
 That distinction matters: an external record can support claims about observable behavior without pretending to prove thoughts or decisions that were never exposed.
 
-## Why It Matters
+## Why it matters
 
 Trust in autonomous systems should not depend entirely on self-reporting.
 
-RATTER is being developed to give operators an outside operational view that can be inspected independently of the system being observed.
+RATTER gives operators an outside operational view that can be inspected independently of the system being observed.
 
-## Development Status
+## Development status
 
-RATTER is under active development.
-
-Public documentation describes the product, its purpose, and externally relevant capabilities only. Internal integrity mechanisms, telemetry implementation, data structures, protocols, control logic, and other proprietary details are intentionally withheld.
+RATTER is under active development. Public documentation describes its purpose and externally relevant capabilities; private integrity mechanisms, protocols, data structures, and control logic remain private.
 
 ## Documentation
 
@@ -59,15 +49,21 @@ Public documentation describes the product, its purpose, and externally relevant
 - [Support](SUPPORT.md)
 - [License](LICENSE.md)
 
-## ARCHETRON
+## Explore ARCHETRON
 
-RATTER is a technology within ARCHETRON, the VOLSHi technology ecosystem. Its responsibility is operational telemetry and system visibility.
+- [ARCHETRON](https://github.com/CenturionOversight/ARCHETRON) — the VOLSHi technology ecosystem
+- [PEEP](https://github.com/ArchePersona/PEEP-info) — execution observation at the source
+- [ERIE](https://github.com/ArchePersona/ERIE-info) — evidence, knowledge, and investigation
+- [ARCHE](https://github.com/ArchePersona/ARCHE-info) — attention allocation
+- [ELLE](https://github.com/CenturionOversight/ELLE) — external learning and developmental continuity
+- [SHERLOCK](https://github.com/ArchePersona/SHERLOCK-info) — evidence-driven reconstruction and investigation
+- [DEVSnitcher](https://github.com/CenturionOversight/devsnitcher) — browser-edge evidence capture
+- [ARCHEMADA](https://github.com/ArchePersona/ARCHEMADA-info) — controlled AI-assisted software construction
+- [ARCHESTRATOR](https://github.com/CenturionOversight/ARCHESTRATOR-info) — software engineering lifecycle infrastructure
 
-## Repository Scope
+## Repository scope
 
-`RATTER-info` is a public documentation repository intended for product information, evaluation, business reference, and other material that can be shared without exposing the private RATTER implementation.
-
-Publication of this repository does not grant access to RATTER source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
+`RATTER-info` is a public documentation repository. Publication does not grant access to RATTER source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
 
 ---
 
