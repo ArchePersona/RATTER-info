@@ -1,6 +1,6 @@
 # RATTER
 
-**Operational telemetry for intelligent systems.**
+**Independent operational telemetry for autonomous intelligence.**
 
 RATTER is the telemetry and operational-observation engine within the VOLSHi span between machine intelligence and human experience. It preserves an outside operational record so accountability does not depend on the intelligence system's own account of what happened.
 
@@ -40,7 +40,9 @@ RATTER gives operators an outside operational view that can be inspected indepen
 
 ## Development status
 
-RATTER is under active development. Public documentation describes its purpose and externally relevant capabilities; private integrity mechanisms, protocols, data structures, and control logic remain private.
+RATTER is an active VOLSHi telemetry engine under continued development. It establishes an independent operational record around intelligent execution so observable behavior can be inspected without relying solely on system self-reporting.
+
+Public documentation describes externally relevant capabilities; private integrity mechanisms, protocols, data structures, and control logic remain private.
 
 ## Documentation
 
