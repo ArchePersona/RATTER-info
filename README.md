@@ -2,7 +2,7 @@
 
 **Operational telemetry for intelligent systems.**
 
-RATTER is the telemetry and operational-observation engine within ARCHETRON, the technology ecosystem built by VOLSHi.
+RATTER is the telemetry and operational-observation engine within the VOLSHi span between machine intelligence and human experience. It preserves an outside operational record so accountability does not depend on the intelligence system's own account of what happened.
 
 As autonomous systems perform more work, operators need more than the system's own assertion that everything went correctly. RATTER preserves an independent operational record of what was reported, when it occurred, and how activity unfolded across a run.
 
